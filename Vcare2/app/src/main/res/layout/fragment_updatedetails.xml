@@ -1,0 +1,62 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="#fcecf5"
+    tools:context="com.example.hp.vcare.updatedetails">
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Patient ID"
+
+        android:layout_marginLeft="20dp"
+        android:layout_marginTop="30dp"
+        android:textColor="#760538"
+        android:id="@+id/dt2"
+        android:textSize="20dp"/>
+    <EditText
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="20dp"
+        android:layout_marginRight="20dp"
+        android:hint="Enter Patient Id"
+        android:id="@+id/de2"
+        android:ems="20"/>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Name"
+        android:layout_marginLeft="20dp"
+        android:layout_marginTop="20dp"
+        android:textColor="#760538"
+        android:textSize="20dp"
+        android:id="@+id/dt1"
+        />
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="20dp"
+        android:layout_marginRight="20dp"
+        android:hint="Name"
+        android:ems="20"
+        android:id="@+id/de1"
+        />
+    <Button
+        android:layout_width="match_parent"
+        android:text="Discharge"
+        android:layout_marginLeft="50dip"
+        android:layout_marginTop="50dp"
+        android:background="#92e76396"
+        android:layout_height="40dip"
+        android:layout_marginRight="50dip"
+        android:textColor="#760538"
+        android:textColorHint="#760538"
+        android:textSize="20dip"
+        android:id="@+id/db1"
+        android:ems="50"
+        />
+
+
+</LinearLayout>
